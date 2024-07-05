@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: rgb(20, 20, 22);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.HY {
+    font-family: "Tiny5", sans-serif;
+    color: white; 
+    margin-top: 0px;  
+    font-size: 80px;
+    text-shadow: -3px 3px red;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(39, 39, 39);
+    border-radius: 20px;
+    flex-grow: 1;
+}
+
+.Block {
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgba(223, 223, 223, 0.473);
+    background: white;
+    box-sizing: border-box;
+}
+
+.Block:hover {
+    background: rgb(254, 187, 3);
+}
+
+.clear, .SetValue, .Eraser  {
+    background: rgb(245, 2, 83);
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 1px solid rgb(12, 12, 12);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.clear:hover, .SetValue:hover, .Eraser:hover  {
+    background: white;
+    color: rgb(245, 2, 83);
+}
+
+.Nerd {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: center;
+}
+
+.under {
+    width: 100%;
+    background: wheat;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img {
+    width: 36px;
+}
+
+.Now {
+    margin-bottom: 50px;
+    text-align: center;
+}
